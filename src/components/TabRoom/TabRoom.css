@@ -1,0 +1,140 @@
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color:rgb(255,255,255)!important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    color:rgb(200,200,200)!important;
+    text-transform:none!important;
+}
+.css-1aquho2-MuiTabs-indicator{
+    background-color:white!important;    
+}
+.createMargin{
+    margin:10px 14px!important;
+}
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
+    color:white!important;
+    border:1px solid white!important;
+}
+
+.deleteRed:hover{
+    background:#a91a1a!important;
+    border:0px!important;
+}
+.MoreButtonFlex{
+    display:flex;
+    flex-direction:row;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    border-color:white!important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+    color:white!important;
+}
+.AddRoomContainer{
+    display:flex;
+    flex-direction:row;
+    align-content:center;
+}
+.DeviceContianer{
+    background-color:#c1a8f9fc!important;
+    border:0px!important;
+    border-radius:20px!important;
+    min-width:160px!important;
+    min-height:160px!important;
+    color:black!important;
+    text-transform:none!important;
+    align-items: flex-start!important;
+    -webkit-box-pack: initial!important;
+    -ms-flex-pack: center!important;
+    -webkit-justify-content: center!important;
+    justify-content: flex-start!important;
+}
+.DeviceContianer:hover{
+    background-color:#c1a8f9fc;
+}
+.DeviceFlex{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    gap: 15px;
+    padding-left: 5px;
+    min-height: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.variableContainer{
+    background-color:#c6e39f;
+    border-radius:20px;
+    border:0px;
+    min-width:270px;
+    max-width:270px;
+    min-height:150px;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+.variableTop{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-left:20px;
+    align-items:center;
+    color:black;
+}
+.css-mghcik-MuiButtonBase-root-MuiSwitch-switchBase{
+    color:black!important;
+}
+.css-1ti6opd-MuiSlider-thumb{
+    width:40px!important;
+    height:40px!important;
+    background-color:white!important;
+}
+.css-14pt78w-MuiSlider-rail{
+    height:10px!important;
+}
+.css-1gv0vcd-MuiSlider-track{
+    height:15px!important;
+}
+.css-3f618k-MuiSlider-root{
+    width:80%!important;
+    color:#bababa!important;
+}
+.modalStyle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: rgb(22,22,22);
+  border: 2px solid #000;
+  padding: 13px;
+}
+.deviceFlex{
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-bottom:40px;
+}
+.variaFlex{
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+}
+.css-13xfq8m-MuiTabPanel-root{
+    min-height:150vh!important;
+}
+@media screen and (max-width:567px){
+    .createMargin{
+        margin:10px 5px!important;
+    } 
+    .DeviceContianer{
+        min-width:150px!important;
+        min-height:150px!important; 
+    }
+    .deviceFlex{
+        gap:5px;
+    }
+}

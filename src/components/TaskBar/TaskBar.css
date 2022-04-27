@@ -1,0 +1,20 @@
+.taskbar{
+    backdrop-filter: blur(100px) saturate(400%) brightness(100%);
+    background: rgba(22,22,22,0.8)!important;
+    border-radius: 20px;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);;
+    border: 1px solid  hsl(0 0% 100% / 0.43);
+    width:fit-content;
+    padding-top:14px;
+    padding-bottom:10px;
+}
+.taskbar-icon{
+    background-image: linear-gradient( 45deg, hsl(0 0% 11.0%),hsl(0 0% 13.6%),hsl(0 0% 11.0%),hsl(0 0% 13.6%))!important;
+    background: hsl(0 0% 13.6%);
+    border-radius: 23%;
+    padding:13px 13px;
+    transition:all 0.3s ease-in-out!important;
+}
+.taskbar-icon:hover{
+    transform:scale(1.4) translateY(-20px);
+}
